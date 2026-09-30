@@ -1,367 +1,688 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhushan Portfolio</title>
+
+    <title>Bhushan | Frontend Web Developer</title>
+
+    <meta name="description"
+        content="Bhushan's professional portfolio - frontend web developer creating modern and responsive websites.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+    <!-- ================= HEADER ================= -->
 
-<nav>
+    <header class="site-header">
 
-    <h2>Bhushan</h2>
+        <nav class="navbar">
 
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-
-</nav>
-
-<!-- ================= HERO ================= -->
-
-<section class="hero" id="home">
-
-    <div class="hero-text">
-
-        <h1>Hi, I'm Bhushan 👋</h1>
-
-        <h2>Frontend Web Designer</h2>
-
-        <p>
-            I create modern, responsive websites for businesses,
-            startups and personal brands.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="#contact">
-                <button>Hire Me</button>
+            <a href="#home" class="logo">
+                Bhushan<span>.</span>
             </a>
 
-            <a href="#projects">
-                <button class="secondary-btn">
-                    View My Work
-                </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">
+                Let's Talk
             </a>
 
-        </div>
+        </nav>
 
-    </div>
+    </header>
 
-    <div class="hero-avatar">
-    <img src="images/profile.jpg" alt="Bhushan" class="profile-image">
-</div>
 
-        <img src="images/profile.jpg"
-             alt="Bhushan"
-             class="profile-image">
+    <!-- ================= HERO ================= -->
 
-    </div>
+    <main>
 
-</section>
+        <section class="hero" id="home">
 
-<!-- ================= ABOUT ================= -->
+            <div class="hero-background"></div>
 
-<section class="about" id="about">
+            <div class="hero-content">
 
-    <h2>About Me</h2>
+                <p class="eyebrow">
+                    FRONTEND WEB DEVELOPER
+                </p>
 
-    <p>
+                <h1>
+                    Building Clean &
+                    <span>Modern Websites.</span>
+                </h1>
 
-        Hello! I'm Bhushan, a Computer Science Engineering student
-        passionate about creating beautiful and responsive websites.
+                <p class="hero-description">
+                    Hi, I'm Bhushan. I create responsive, modern and
+                    user-friendly websites for businesses, startups
+                    and personal brands.
+                </p>
 
-        I'm currently learning HTML, CSS and JavaScript while building
-        real-world projects to improve my frontend development skills.
+                <div class="hero-buttons">
 
-    </p>
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work
+                    </a>
 
-</section>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
 
-<!-- ================= STATS ================= -->
+                </div>
 
-<section class="stats">
+                <div class="hero-bottom">
 
-    <div class="stat-box">
-        <h2>5+</h2>
-        <p>Projects</p>
-    </div>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
 
-    <div class="stat-box">
-        <h2>100%</h2>
-        <p>Learning Commitment</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>24/7</h2>
-        <p>Support</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>2026</h2>
-        <p>Started Web Development</p>
-    </div>
-
-</section>
-
-<!-- ================= SERVICES ================= -->
-
-<section class="services" id="services">
-
-    <h2>My Services</h2>
-
-    <div class="service-container">
-
-        <div class="service-card">
-
-            <h3>🌐 Website Design</h3>
-
-            <p>
-
-                I create professional websites
-                for businesses and personal brands.
-
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <h3>📱 Responsive Design</h3>
-
-            <p>
-
-                Every website works perfectly
-                on mobile, tablet and desktop.
-
-            </p>
-
-        </div>
-
-        <div class="service-card">
-
-            <h3>⚡ Website Redesign</h3>
-
-            <p>
-
-                Improve old websites with
-                modern layouts and user experience.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= PROJECTS ================= -->
-
-<section class="projects" id="projects">
-
-    <h2>My Projects</h2>
-
-    <div class="project-container">
-
-        <div class="card">
-
-            <img src="images/restaurant.jpg"
-                 alt="Restaurant Website">
-
-            <h3>Restaurant Website</h3>
-
-            <p>
-
-                A modern responsive restaurant
-                website with menu and reservations.
-
-            </p>
-
-            <div class="buttons">
-
-                <button>Live Demo</button>
-
-                <button>GitHub</button>
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="card">
 
-            <img src="images/gym.jpg"
-                 alt="Gym Website">
+        <!-- ================= ABOUT ================= -->
 
-            <h3>Gym Website</h3>
+        <section class="about section" id="about">
 
-            <p>
+            <div class="container">
 
-                Fitness website featuring trainers,
-                membership plans and contact section.
+                <div class="section-header">
 
-            </p>
+                    <p class="eyebrow">
+                        ABOUT ME
+                    </p>
 
-            <div class="buttons">
+                    <h2>
+                        Turning Ideas Into
+                        <span>Digital Experiences.</span>
+                    </h2>
 
-                <button>Live Demo</button>
+                </div>
 
-                <button>GitHub</button>
+                <div class="about-grid">
+
+                    <div class="about-number">
+                        <strong>01</strong>
+                    </div>
+
+                    <div class="about-content">
+
+                        <p>
+                            Hello! I'm Bhushan, a Computer Science
+                            Engineering student passionate about
+                            web development and technology.
+                        </p>
+
+                        <p>
+                            I'm currently learning HTML, CSS and
+                            JavaScript while building real-world
+                            projects to improve my frontend
+                            development skills.
+                        </p>
+
+                        <p>
+                            I enjoy creating websites that are
+                            simple, responsive, visually appealing
+                            and easy to use.
+                        </p>
+
+                    </div>
+
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="card">
 
-            <img src="images/hospital.jpg"
-                 alt="Hospital Website">
+        <!-- ================= STATS ================= -->
 
-            <h3>Hospital Website</h3>
+        <section class="stats">
 
-            <p>
+            <div class="container stats-grid">
 
-                Professional healthcare website
-                with services and appointments.
+                <div class="stat">
 
-            </p>
+                    <strong>05+</strong>
+                    <span>Projects</span>
 
-            <div class="buttons">
+                </div>
 
-                <button>Live Demo</button>
+                <div class="stat">
 
-                <button>GitHub</button>
+                    <strong>100%</strong>
+                    <span>Learning Commitment</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <strong>2026</strong>
+                    <span>Started Development</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <strong>24/7</strong>
+                    <span>Creative Ideas</span>
+
+                </div>
 
             </div>
 
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services section" id="services">
+
+            <div class="container">
+
+                <div class="section-header centered">
+
+                    <p class="eyebrow">
+                        WHAT I DO
+                    </p>
+
+                    <h2>
+                        Services I <span>Provide.</span>
+                    </h2>
+
+                    <p>
+                        Helping ideas become professional digital
+                        experiences through clean and responsive design.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            01
+                        </div>
+
+                        <div class="service-icon">
+                            🌐
+                        </div>
+
+                        <h3>
+                            Website Design
+                        </h3>
+
+                        <p>
+                            Professional and modern websites
+                            designed for businesses, startups
+                            and personal brands.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More →
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            02
+                        </div>
+
+                        <div class="service-icon">
+                            📱
+                        </div>
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Websites that adapt beautifully
+                            across mobile, tablet and desktop
+                            devices.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More →
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            03
+                        </div>
+
+                        <div class="service-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Website Redesign
+                        </h3>
+
+                        <p>
+                            Modernizing existing websites with
+                            cleaner layouts and improved user
+                            experience.
+                        </p>
+
+                        <a href="#contact">
+                            Learn More →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="projects section" id="projects">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="eyebrow">
+                        SELECTED WORK
+                    </p>
+
+                    <h2>
+                        My Recent <span>Projects.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="images/restaurant.jpg"
+                                 alt="Restaurant Website">
+
+                            <div class="project-overlay">
+                                <span>Web Design</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                WEBSITE
+                            </p>
+
+                            <h3>
+                                Restaurant Website
+                            </h3>
+
+                            <p>
+                                A modern restaurant website
+                                featuring menu, services and
+                                reservation sections.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="#" target="_blank">
+                                    Live Demo ↗
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    GitHub ↗
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="images/gym.jpg"
+                                 alt="Gym Website">
+
+                            <div class="project-overlay">
+                                <span>Web Design</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                WEBSITE
+                            </p>
+
+                            <h3>
+                                Gym Website
+                            </h3>
+
+                            <p>
+                                A modern fitness website featuring
+                                trainers, membership plans and
+                                contact sections.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="#" target="_blank">
+                                    Live Demo ↗
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    GitHub ↗
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="images/hospital.jpg"
+                                 alt="Hospital Website">
+
+                            <div class="project-overlay">
+                                <span>Web Design</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                WEBSITE
+                            </p>
+
+                            <h3>
+                                Hospital Website
+                            </h3>
+
+                            <p>
+                                A professional healthcare website
+                                featuring services, doctors and
+                                appointment sections.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="#" target="_blank">
+                                    Live Demo ↗
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    GitHub ↗
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="skills section" id="skills">
+
+            <div class="container skills-grid">
+
+                <div class="skills-intro">
+
+                    <p class="eyebrow">
+                        MY EXPERTISE
+                    </p>
+
+                    <h2>
+                        Skills I'm
+                        <span>Building.</span>
+                    </h2>
+
+                    <p>
+                        I'm continuously improving my frontend
+                        development skills by learning, practicing
+                        and building real-world projects.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-list">
+
+                    <div class="skill">
+
+                        <div class="skill-header">
+
+                            <span>HTML</span>
+                            <strong>90%</strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span class="html"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-header">
+
+                            <span>CSS</span>
+                            <strong>85%</strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span class="css"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-header">
+
+                            <span>JavaScript</span>
+                            <strong>70%</strong>
+
+                        </div>
+
+                        <div class="progress">
+                            <span class="js"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    HAVE A PROJECT IN MIND?
+                </p>
+
+                <h2>
+                    Let's Build Something
+                    <span>Great Together.</span>
+                </h2>
+
+                <p>
+                    Have an idea for a website?
+                    Let's turn it into reality.
+                </p>
+
+                <a href="#contact" class="btn btn-white">
+                    Start a Conversation →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-intro">
+
+                    <p class="eyebrow">
+                        CONTACT
+                    </p>
+
+                    <h2>
+                        Let's Talk About
+                        <span>Your Project.</span>
+                    </h2>
+
+                    <p>
+                        Interested in working together?
+                        Feel free to reach out through any
+                        of the options below.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-details">
+
+                    <a href="mailto:yourname@gmail.com"
+                       class="contact-item">
+
+                        <span>📧</span>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>yourname@gmail.com</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       target="_blank"
+                       class="contact-item">
+
+                        <span>💻</span>
+
+                        <div>
+                            <small>GitHub</small>
+                            <strong>github.com/yourusername</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       target="_blank"
+                       class="contact-item">
+
+                        <span>🔗</span>
+
+                        <div>
+                            <small>LinkedIn</small>
+                            <strong>linkedin.com/in/yourusername</strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                Bhushan<span>.</span>
+            </a>
+
+            <p>
+                © 2026 Bhushan. Built with HTML & CSS.
+            </p>
+
         </div>
 
-    </div>
+    </footer>
 
-</section>
 
-<!-- ================= SKILLS ================= -->
-
-<section class="skills" id="skills">
-
-    <h2>My Skills</h2>
-
-    <div class="skill">
-
-        <p>HTML</p>
-
-        <div class="bar">
-
-            <div class="html"></div>
-
-        </div>
-
-    </div>
-
-    <div class="skill">
-
-        <p>CSS</p>
-
-        <div class="bar">
-
-            <div class="css"></div>
-
-        </div>
-
-    </div>
-
-    <div class="skill">
-
-        <p>JavaScript</p>
-
-        <div class="bar">
-
-            <div class="js"></div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= CALL TO ACTION ================= -->
-
-<section class="cta">
-
-    <h2>Let's Build Your Next Website</h2>
-
-    <p>
-
-        Looking for a modern website?
-        I'm ready to help bring your ideas to life.
-
-    </p>
-
-    <a href="#contact">
-
-        <button>Get In Touch</button>
-
-    </a>
-
-</section>
-
-<!-- ================= CONTACT ================= -->
-
-<section class="contact" id="contact">
-
-    <h2>Contact Me</h2>
-
-    <p>
-        Interested in working together?
-        Let's create something amazing.
-    </p>
-
-    <div class="contact-info">
-
-        <p>
-            📧 Email :
-            yourname@gmail.com
-        </p>
-
-        <p>
-            💻 GitHub :
-            github.com/yourusername
-        </p>
-
-        <p>
-            🔗 LinkedIn :
-            linkedin.com/in/yourusernamec
-        </p>
-
-    </div>
-
-    <button>Send Message</button>
-
-</section>
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <p>
-
-        © 2026 Bhushan |
-        All Rights Reserved
-
-    </p>
-
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
+```
