@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,86 +5,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bhushan | Frontend Web Developer</title>
+    <title>Bhushan Malaji | CSE Student & Frontend Developer</title>
 
     <meta name="description"
-        content="Bhushan's professional portfolio - frontend web developer creating modern and responsive websites.">
+        content="Bhushan Malaji - Computer Science Engineering student, frontend developer and AI-assisted developer.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+    <!-- ================= NAVBAR ================= -->
 
-    <header class="site-header">
-
-        <nav class="navbar">
+    <header class="navbar">
+        <div class="container nav-container">
 
             <a href="#home" class="logo">
                 Bhushan<span>.</span>
             </a>
 
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-            <a href="#contact" class="nav-button">
-                Let's Talk
-            </a>
+            <div class="nav-actions">
+                <a href="resume.pdf" class="resume-btn" download>
+                    Download Resume
+                </a>
 
-        </nav>
+                <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                    ☰
+                </button>
+            </div>
 
+        </div>
     </header>
 
 
-    <!-- ================= HERO ================= -->
-
     <main>
+
+        <!-- ================= HERO ================= -->
 
         <section class="hero" id="home">
 
-            <div class="hero-background"></div>
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
 
-            <div class="hero-content">
+            <div class="container hero-grid">
 
-                <p class="eyebrow">
-                    FRONTEND WEB DEVELOPER
-                </p>
+                <div class="hero-content">
 
-                <h1>
-                    Building Clean &
-                    <span>Modern Websites.</span>
-                </h1>
+                    <div class="availability">
+                        <span></span>
+                        Open to learning & opportunities
+                    </div>
 
-                <p class="hero-description">
-                    Hi, I'm Bhushan. I create responsive, modern and
-                    user-friendly websites for businesses, startups
-                    and personal brands.
-                </p>
+                    <p class="hero-small">
+                        COMPUTER SCIENCE ENGINEERING STUDENT
+                    </p>
 
-                <div class="hero-buttons">
+                    <h1>
+                        Hi, I'm
+                        <span>Bhushan Malaji.</span>
+                    </h1>
 
-                    <a href="#projects" class="btn btn-primary">
-                        View My Work
-                    </a>
+                    <h2>
+                        Computer Science Engineering Student
+                        <br>
+                        <span>& Frontend Developer</span>
+                    </h2>
 
-                    <a href="#contact" class="btn btn-outline">
-                        Get In Touch
-                    </a>
+                    <p class="hero-description">
+                        Passionate about building modern web experiences and
+                        practical software projects using web technologies,
+                        programming, and AI-assisted development.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn primary-btn">
+                            View My Projects
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Contact Me
+                        </a>
+
+                        <a href="resume.pdf" class="text-btn" download>
+                            Download Resume ↓
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/" target="_blank"
+                            aria-label="GitHub">
+                            GitHub
+                        </a>
+
+                        <a href="https://linkedin.com/" target="_blank"
+                            aria-label="LinkedIn">
+                            LinkedIn
+                        </a>
+
+                        <a href="mailto:yourname@gmail.com"
+                            aria-label="Email">
+                            Email
+                        </a>
+
+                    </div>
 
                 </div>
 
-                <div class="hero-bottom">
 
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
+                <!-- PROFILE IMAGE -->
+
+                <div class="hero-image-area">
+
+                    <div class="image-decoration decoration-one"></div>
+                    <div class="image-decoration decoration-two"></div>
+
+                    <div class="profile-wrapper">
+
+                        <div class="profile-ring">
+
+                            <img
+                                src="images/bhushan.jpg"
+                                alt="Bhushan Malaji"
+                                class="profile-image">
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <span class="floating-icon">{"</>"}</span>
+                        <div>
+                            <strong>Frontend</strong>
+                            <small>Development</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <span class="floating-icon">AI</span>
+                        <div>
+                            <strong>AI-Assisted</strong>
+                            <small>Development</small>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -96,203 +171,200 @@
 
         <!-- ================= ABOUT ================= -->
 
-        <section class="about section" id="about">
+        <section class="section about" id="about">
 
             <div class="container">
 
-                <div class="section-header">
-
-                    <p class="eyebrow">
-                        ABOUT ME
-                    </p>
+                <div class="section-heading">
+                    <p class="section-label">ABOUT ME</p>
 
                     <h2>
-                        Turning Ideas Into
-                        <span>Digital Experiences.</span>
-                    </h2>
-
-                </div>
-
-                <div class="about-grid">
-
-                    <div class="about-number">
-                        <strong>01</strong>
-                    </div>
-
-                    <div class="about-content">
-
-                        <p>
-                            Hello! I'm Bhushan, a Computer Science
-                            Engineering student passionate about
-                            web development and technology.
-                        </p>
-
-                        <p>
-                            I'm currently learning HTML, CSS and
-                            JavaScript while building real-world
-                            projects to improve my frontend
-                            development skills.
-                        </p>
-
-                        <p>
-                            I enjoy creating websites that are
-                            simple, responsive, visually appealing
-                            and easy to use.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= STATS ================= -->
-
-        <section class="stats">
-
-            <div class="container stats-grid">
-
-                <div class="stat">
-
-                    <strong>05+</strong>
-                    <span>Projects</span>
-
-                </div>
-
-                <div class="stat">
-
-                    <strong>100%</strong>
-                    <span>Learning Commitment</span>
-
-                </div>
-
-                <div class="stat">
-
-                    <strong>2026</strong>
-                    <span>Started Development</span>
-
-                </div>
-
-                <div class="stat">
-
-                    <strong>24/7</strong>
-                    <span>Creative Ideas</span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SERVICES ================= -->
-
-        <section class="services section" id="services">
-
-            <div class="container">
-
-                <div class="section-header centered">
-
-                    <p class="eyebrow">
-                        WHAT I DO
-                    </p>
-
-                    <h2>
-                        Services I <span>Provide.</span>
+                        Building my journey
+                        <span>one project at a time.</span>
                     </h2>
 
                     <p>
-                        Helping ideas become professional digital
-                        experiences through clean and responsive design.
+                        I'm a Computer Science Engineering student focused
+                        on learning by building practical projects.
+                    </p>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-main">
+
+                        <p>
+                            I'm <strong>Bhushan Malaji</strong>, a B.E.
+                            Computer Science and Engineering student
+                            interested in software development and
+                            modern web technologies.
+                        </p>
+
+                        <p>
+                            I'm currently developing my skills through
+                            hands-on projects, programming practice and
+                            AI-assisted development tools.
+                        </p>
+
+                        <p>
+                            My goal is to become a strong software developer
+                            by understanding the fundamentals, building
+                            useful applications and continuously improving
+                            my problem-solving skills.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-grid">
+
+                        <div class="interest-card">
+                            <span>01</span>
+                            <h3>Web Development</h3>
+                            <p>Building responsive and modern websites.</p>
+                        </div>
+
+                        <div class="interest-card">
+                            <span>02</span>
+                            <h3>Programming</h3>
+                            <p>Improving programming and problem-solving.</p>
+                        </div>
+
+                        <div class="interest-card">
+                            <span>03</span>
+                            <h3>DSA</h3>
+                            <p>Learning data structures and algorithms.</p>
+                        </div>
+
+                        <div class="interest-card">
+                            <span>04</span>
+                            <h3>Artificial Intelligence</h3>
+                            <p>Exploring AI-assisted development.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="section-label">MY SKILLS</p>
+
+                    <h2>
+                        Technologies I'm
+                        <span>learning & building with.</span>
+                    </h2>
+
+                    <p>
+                        A growing technical toolkit developed through
+                        coursework, practice and personal projects.
                     </p>
 
                 </div>
 
 
-                <div class="services-grid">
+                <div class="skills-grid">
 
-                    <article class="service-card">
+                    <!-- Programming -->
 
-                        <div class="service-number">
-                            01
+                    <div class="skill-card">
+
+                        <div class="skill-number">01</div>
+
+                        <div class="skill-icon">C/C++</div>
+
+                        <h3>Programming</h3>
+
+                        <div class="skill-tags">
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>Python</span>
                         </div>
 
-                        <div class="service-icon">
-                            🌐
+                    </div>
+
+
+                    <!-- Web -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-number">02</div>
+
+                        <div class="skill-icon">&lt;/&gt;</div>
+
+                        <h3>Web Development</h3>
+
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
                         </div>
 
-                        <h3>
-                            Website Design
-                        </h3>
-
-                        <p>
-                            Professional and modern websites
-                            designed for businesses, startups
-                            and personal brands.
-                        </p>
-
-                        <a href="#contact">
-                            Learn More →
-                        </a>
-
-                    </article>
+                    </div>
 
 
-                    <article class="service-card">
+                    <!-- CS -->
 
-                        <div class="service-number">
-                            02
+                    <div class="skill-card">
+
+                        <div class="skill-number">03</div>
+
+                        <div class="skill-icon">DSA</div>
+
+                        <h3>Computer Science</h3>
+
+                        <div class="skill-tags">
+                            <span>Data Structures & Algorithms</span>
+                            <span>OOP</span>
+                            <span>Database Fundamentals</span>
                         </div>
 
-                        <div class="service-icon">
-                            📱
+                    </div>
+
+
+                    <!-- Tools -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-number">04</div>
+
+                        <div class="skill-icon">⚙</div>
+
+                        <h3>Tools</h3>
+
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>AI-Assisted Development</span>
                         </div>
 
-                        <h3>
-                            Responsive Design
-                        </h3>
+                    </div>
 
-                        <p>
-                            Websites that adapt beautifully
-                            across mobile, tablet and desktop
-                            devices.
-                        </p>
-
-                        <a href="#contact">
-                            Learn More →
-                        </a>
-
-                    </article>
+                </div>
 
 
-                    <article class="service-card">
+                <div class="learning-note">
 
-                        <div class="service-number">
-                            03
-                        </div>
+                    <span>Currently Learning</span>
 
-                        <div class="service-icon">
-                            ⚡
-                        </div>
-
-                        <h3>
-                            Website Redesign
-                        </h3>
-
-                        <p>
-                            Modernizing existing websites with
-                            cleaner layouts and improved user
-                            experience.
-                        </p>
-
-                        <a href="#contact">
-                            Learn More →
-                        </a>
-
-                    </article>
+                    <p>
+                        Continuously improving my frontend development,
+                        DSA and software development fundamentals.
+                    </p>
 
                 </div>
 
@@ -303,19 +375,23 @@
 
         <!-- ================= PROJECTS ================= -->
 
-        <section class="projects section" id="projects">
+        <section class="section projects" id="projects">
 
             <div class="container">
 
-                <div class="section-header">
+                <div class="section-heading">
 
-                    <p class="eyebrow">
-                        SELECTED WORK
-                    </p>
+                    <p class="section-label">SELECTED PROJECTS</p>
 
                     <h2>
-                        My Recent <span>Projects.</span>
+                        Things I've
+                        <span>built.</span>
                     </h2>
+
+                    <p>
+                        Practical projects that demonstrate my learning,
+                        creativity and development journey.
+                    </p>
 
                 </div>
 
@@ -325,43 +401,86 @@
 
                     <!-- PROJECT 1 -->
 
-                    <article class="project-card">
+                    <article class="project-card featured-project">
 
                         <div class="project-image">
 
-                            <img src="images/restaurant.jpg"
-                                 alt="Restaurant Website">
+                            <div class="project-placeholder attendance-preview">
 
-                            <div class="project-overlay">
-                                <span>Web Design</span>
+                                <div class="preview-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="attendance-content">
+
+                                    <div class="mini-sidebar"></div>
+
+                                    <div class="mini-dashboard">
+
+                                        <div class="mini-title">
+                                            Smart Attendance
+                                        </div>
+
+                                        <div class="mini-boxes">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+
+                                        <div class="mini-table">
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
 
+                            <span class="project-badge">
+                                MAIN PROJECT
+                            </span>
+
                         </div>
+
 
                         <div class="project-content">
 
                             <p class="project-category">
-                                WEBSITE
+                                WEB APPLICATION
                             </p>
 
                             <h3>
-                                Restaurant Website
+                                Smart Attendance System
                             </h3>
 
                             <p>
-                                A modern restaurant website
-                                featuring menu, services and
-                                reservation sections.
+                                A web-based smart attendance system
+                                designed to automate attendance management
+                                using face recognition and modern web
+                                technologies.
                             </p>
 
-                            <div class="project-links">
+                            <div class="tech-list">
+                                <span>Web</span>
+                                <span>Face Recognition</span>
+                                <span>Database</span>
+                            </div>
 
-                                <a href="#" target="_blank">
-                                    Live Demo ↗
-                                </a>
+                            <div class="project-actions">
 
                                 <a href="#" target="_blank">
                                     GitHub ↗
+                                </a>
+
+                                <a href="#" target="_blank"
+                                    class="project-live">
+                                    Live Demo ↗
                                 </a>
 
                             </div>
@@ -377,39 +496,66 @@
 
                         <div class="project-image">
 
-                            <img src="images/gym.jpg"
-                                 alt="Gym Website">
+                            <div class="project-placeholder portfolio-preview">
 
-                            <div class="project-overlay">
-                                <span>Web Design</span>
+                                <div class="preview-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="portfolio-preview-content">
+
+                                    <div class="preview-avatar"></div>
+
+                                    <div class="preview-lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+
+                                </div>
+
                             </div>
 
+                            <span class="project-badge">
+                                PORTFOLIO
+                            </span>
+
                         </div>
+
 
                         <div class="project-content">
 
                             <p class="project-category">
-                                WEBSITE
+                                FRONTEND
                             </p>
 
                             <h3>
-                                Gym Website
+                                Personal Portfolio Website
                             </h3>
 
                             <p>
-                                A modern fitness website featuring
-                                trainers, membership plans and
-                                contact sections.
+                                A responsive personal portfolio website
+                                showcasing my skills, projects, education
+                                and developer journey.
                             </p>
 
-                            <div class="project-links">
+                            <div class="tech-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
 
-                                <a href="#" target="_blank">
-                                    Live Demo ↗
-                                </a>
+                            <div class="project-actions">
 
                                 <a href="#" target="_blank">
                                     GitHub ↗
+                                </a>
+
+                                <a href="#" target="_blank"
+                                    class="project-live">
+                                    Live Demo ↗
                                 </a>
 
                             </div>
@@ -418,53 +564,72 @@
 
                     </article>
 
+                </div>
 
-                    <!-- PROJECT 3 -->
 
-                    <article class="project-card">
+                <div class="projects-more">
+                    <p>
+                        More projects will be added as I continue building.
+                    </p>
+                </div>
 
-                        <div class="project-image">
+            </div>
 
-                            <img src="images/hospital.jpg"
-                                 alt="Hospital Website">
+        </section>
 
-                            <div class="project-overlay">
-                                <span>Web Design</span>
-                            </div>
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="section education" id="education">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="section-label">EDUCATION</p>
+
+                    <h2>
+                        My academic
+                        <span>journey.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="education-card">
+
+                    <div class="education-icon">
+                        🎓
+                    </div>
+
+                    <div class="education-content">
+
+                        <span class="education-status">
+                            CURRENTLY PURSUING
+                        </span>
+
+                        <h3>
+                            B.E. in Computer Science and Engineering
+                        </h3>
+
+                        <p>
+                            Bachelor of Engineering — Computer Science
+                            and Engineering
+                        </p>
+
+                        <div class="education-meta">
+
+                            <span>
+                                📚 Computer Science
+                            </span>
+
+                            <span>
+                                💻 Software Development
+                            </span>
 
                         </div>
 
-                        <div class="project-content">
-
-                            <p class="project-category">
-                                WEBSITE
-                            </p>
-
-                            <h3>
-                                Hospital Website
-                            </h3>
-
-                            <p>
-                                A professional healthcare website
-                                featuring services, doctors and
-                                appointment sections.
-                            </p>
-
-                            <div class="project-links">
-
-                                <a href="#" target="_blank">
-                                    Live Demo ↗
-                                </a>
-
-                                <a href="#" target="_blank">
-                                    GitHub ↗
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
+                    </div>
 
                 </div>
 
@@ -473,77 +638,72 @@
         </section>
 
 
-        <!-- ================= SKILLS ================= -->
+        <!-- ================= CERTIFICATIONS ================= -->
 
-        <section class="skills section" id="skills">
+        <section class="section certifications"
+            id="certifications">
 
-            <div class="container skills-grid">
+            <div class="container">
 
-                <div class="skills-intro">
+                <div class="section-heading">
 
-                    <p class="eyebrow">
-                        MY EXPERTISE
-                    </p>
+                    <p class="section-label">CERTIFICATIONS</p>
 
                     <h2>
-                        Skills I'm
-                        <span>Building.</span>
+                        Learning beyond
+                        <span>the classroom.</span>
                     </h2>
 
                     <p>
-                        I'm continuously improving my frontend
-                        development skills by learning, practicing
-                        and building real-world projects.
+                        Certifications and learning achievements will be
+                        added here as I complete them.
                     </p>
 
                 </div>
 
 
-                <div class="skills-list">
+                <div class="certification-grid">
 
-                    <div class="skill">
+                    <div class="certification-card">
 
-                        <div class="skill-header">
-
-                            <span>HTML</span>
-                            <strong>90%</strong>
-
+                        <div class="cert-icon">
+                            ✓
                         </div>
 
-                        <div class="progress">
-                            <span class="html"></span>
-                        </div>
+                        <div>
+                            <span>LEARNING</span>
 
-                    </div>
+                            <h3>
+                                Technical Skills Development
+                            </h3>
 
-
-                    <div class="skill">
-
-                        <div class="skill-header">
-
-                            <span>CSS</span>
-                            <strong>85%</strong>
-
-                        </div>
-
-                        <div class="progress">
-                            <span class="css"></span>
+                            <p>
+                                Continuously learning programming,
+                                web development and computer science
+                                fundamentals.
+                            </p>
                         </div>
 
                     </div>
 
 
-                    <div class="skill">
+                    <div class="certification-card">
 
-                        <div class="skill-header">
-
-                            <span>JavaScript</span>
-                            <strong>70%</strong>
-
+                        <div class="cert-icon">
+                            +
                         </div>
 
-                        <div class="progress">
-                            <span class="js"></span>
+                        <div>
+                            <span>COMING SOON</span>
+
+                            <h3>
+                                More Certifications
+                            </h3>
+
+                            <p>
+                                New certifications will be added as
+                                I complete relevant courses and programs.
+                            </p>
                         </div>
 
                     </div>
@@ -561,22 +721,22 @@
 
             <div class="container">
 
-                <p class="eyebrow">
-                    HAVE A PROJECT IN MIND?
+                <p class="section-label">
+                    LET'S CONNECT
                 </p>
 
                 <h2>
-                    Let's Build Something
-                    <span>Great Together.</span>
+                    Let's build something
+                    <span>meaningful.</span>
                 </h2>
 
                 <p>
-                    Have an idea for a website?
-                    Let's turn it into reality.
+                    Interested in my work, projects or potential
+                    opportunities? I'd be happy to connect.
                 </p>
 
-                <a href="#contact" class="btn btn-white">
-                    Start a Conversation →
+                <a href="#contact" class="btn white-btn">
+                    Contact Me →
                 </a>
 
             </div>
@@ -586,25 +746,25 @@
 
         <!-- ================= CONTACT ================= -->
 
-        <section class="contact section" id="contact">
+        <section class="section contact" id="contact">
 
             <div class="container contact-grid">
 
                 <div class="contact-intro">
 
-                    <p class="eyebrow">
+                    <p class="section-label">
                         CONTACT
                     </p>
 
                     <h2>
-                        Let's Talk About
-                        <span>Your Project.</span>
+                        Let's start a
+                        <span>conversation.</span>
                     </h2>
 
                     <p>
-                        Interested in working together?
-                        Feel free to reach out through any
-                        of the options below.
+                        I'm open to internship opportunities,
+                        project collaborations, freelance work and
+                        connecting with fellow developers.
                     </p>
 
                 </div>
@@ -613,42 +773,54 @@
                 <div class="contact-details">
 
                     <a href="mailto:yourname@gmail.com"
-                       class="contact-item">
+                        class="contact-item">
 
-                        <span>📧</span>
+                        <div class="contact-icon">
+                            @
+                        </div>
 
                         <div>
-                            <small>Email</small>
+                            <small>EMAIL</small>
                             <strong>yourname@gmail.com</strong>
                         </div>
 
+                        <span>↗</span>
+
                     </a>
 
 
-                    <a href="#"
-                       target="_blank"
-                       class="contact-item">
+                    <a href="https://github.com/"
+                        target="_blank"
+                        class="contact-item">
 
-                        <span>💻</span>
+                        <div class="contact-icon">
+                            GH
+                        </div>
 
                         <div>
-                            <small>GitHub</small>
+                            <small>GITHUB</small>
                             <strong>github.com/yourusername</strong>
                         </div>
 
+                        <span>↗</span>
+
                     </a>
 
 
-                    <a href="#"
-                       target="_blank"
-                       class="contact-item">
+                    <a href="https://linkedin.com/"
+                        target="_blank"
+                        class="contact-item">
 
-                        <span>🔗</span>
+                        <div class="contact-icon">
+                            in
+                        </div>
 
                         <div>
-                            <small>LinkedIn</small>
+                            <small>LINKEDIN</small>
                             <strong>linkedin.com/in/yourusername</strong>
                         </div>
+
+                        <span>↗</span>
 
                     </a>
 
@@ -672,8 +844,12 @@
             </a>
 
             <p>
-                © 2026 Bhushan. Built with HTML & CSS.
+                © 2026 Bhushan Malaji. Built with HTML, CSS & JavaScript.
             </p>
+
+            <a href="#home" class="back-top">
+                Back to top ↑
+            </a>
 
         </div>
 
@@ -685,4 +861,3 @@
 </body>
 
 </html>
-```
